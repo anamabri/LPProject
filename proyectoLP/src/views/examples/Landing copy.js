@@ -74,10 +74,14 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        Reserva {" "}
+                        A beautiful Design System{" "}
                         <span>completed with examples</span>
                       </h1>
-              
+                      <p className="lead text-white">
+                        The design system comes with four pre-built pages to
+                        help you get started faster. You can change the text and
+                        images and you're good to go.
+                      </p>
                       <div className="btn-wrapper">
                         <Button
                           className="btn-icon mb-3 mb-sm-0"

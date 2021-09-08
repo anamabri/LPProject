@@ -28,7 +28,8 @@ import Landing from "views/examples/Landing.js";
 import Login from "views/reservLogin.js";
 import Restaurante from "views/restaurantes.js";
 import Profile from "views/examples/Profile.js";
-import Register from "views/examples/Register.js";
+import Register from "views/registroResv.js";
+import Negocio from "views/Negocio.js";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -56,6 +57,11 @@ ReactDOM.render(
         exact
         render={props => <Register {...props} />}
       />
+       <Route
+        path="/negocio"
+        exact
+        render={props => <Negocio {...props} />}
+        />
       <Redirect to="/" />
     </Switch>
   </BrowserRouter>,

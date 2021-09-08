@@ -91,20 +91,35 @@ class Profile extends React.Component {
                           onClick={e => e.preventDefault()}
                           size="sm"
                         >
-                          Añadir Negocio +  
+                          Connect
                         </Button>
-                       <Button
+                        <Button
                           className="float-right"
                           color="default"
                           href="#pablo"
                           onClick={e => e.preventDefault()}
                           size="sm"
                         >
-                          Ver Reservas
-                        </Button> 
+                          Message
+                        </Button>
                       </div>
                     </Col>
-                   
+                    <Col className="order-lg-1" lg="4">
+                      <div className="card-profile-stats d-flex justify-content-center">
+                        <div>
+                          <span className="heading">22</span>
+                          <span className="description">Friends</span>
+                        </div>
+                        <div>
+                          <span className="heading">10</span>
+                          <span className="description">Photos</span>
+                        </div>
+                        <div>
+                          <span className="heading">89</span>
+                          <span className="description">Comments</span>
+                        </div>
+                      </div>
+                    </Col>
                   </Row>
                   <div className="text-center mt-5">
                     <h3>
@@ -113,11 +128,11 @@ class Profile extends React.Component {
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
-                      Guayaquil, Ecuador 
+                      Bucharest, Romania
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Propietaria de Restaurante Mistico
+                      Solution Manager - Creative Tim Officer
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
@@ -135,7 +150,7 @@ class Profile extends React.Component {
                           structure. An artist of considerable range.
                         </p>
                         <a href="#pablo" onClick={e => e.preventDefault()}>
-                       
+                          Show more
                         </a>
                       </Col>
                     </Row>
